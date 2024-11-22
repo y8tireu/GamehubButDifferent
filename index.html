@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Game Hub</h1>
+    </header>
+
+    <main>
+        <section id="game-list">
+            <!-- Games will be dynamically inserted here -->
+        </section>
+
+        <section id="add-game">
+            <h2>Add a New Game</h2>
+            <form id="game-form">
+                <label for="title">Game Title:</label>
+                <input type="text" id="title" required>
+
+                <label for="image">Image URL:</label>
+                <input type="url" id="image" required>
+
+                <label for="url">Game URL:</label>
+                <input type="url" id="url" required>
+
+                <button type="submit">Add Game</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Sanjivram Game Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
